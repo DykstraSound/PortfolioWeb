@@ -16,20 +16,147 @@
   </head>
   <body>
     <!-- NAVBAR -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light custom-nav">
+        <!-- <a class="navbar-brand" href="#">
+          <img src="./assets/images/sunglasses.svg" alt="logo" class="nav-logo"
+        /></a> -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <!-- MAIN CONTENT -->
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
-          <span>Website</span>
+    <main class="container-fluid">
+      <section class="container-fluid primary">
+        <div class="row prim-row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <span class="txt"
+              >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Distinctio similique ipsa atque voluptates porro, at dignissimos
+              ducimus sint corporis neque, cupiditate suscipit, nesciunt cumque
+              repellat obcaecati? Sit eius voluptates dolorum.</span
+            >
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+            <!-- <img src="./images/badges/aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner" class="cert-img" /> -->
+          </div>
         </div>
-      </div>
-    </div>
+      </section>
+
+      <!-- CERTIFICATES SECTION -->
+      <section class="container certificates">
+        <div class="row cert-row">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/aws-certified-cloud-practitioner.png"
+              alt="AWS Certified Cloud Practitioner"
+              class="cert-img" />
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/microsoft-certified-azure-administrator-associate.2.png"
+              alt="microsoft-certified-azure-administrator-associate"
+              class="cert-img" />
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/certified-in-cybersecurity-cc.png"
+              alt="cyber-security"
+              class="cert-img" />
+          </div>
+        </div>
+
+        <div class="row cert-row">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-a-ce-certification.1.png"
+              alt="a+"
+              class="cert-img" />
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-cloud-admin-professional-ccap-stackable-certification.png"
+              alt="cloud-admin"
+              class="cert-img" />
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-cloud-ce-certification.1.png"
+              alt="cloud+"
+              class="cert-img" />
+          </div>
+        </div>
+
+        <div class="row cert-row">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-it-operations-specialist-cios-stackable-certification.png"
+              alt="cios"
+              class="cert-img" />
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-network-ce-certification.1.png"
+              alt="network+"
+              class="cert-img" />
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-project-certification.1.png"
+              alt="project+"
+              class="cert-img" />
+          </div>
+        </div>
+
+        <div class="row cert-row">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-secure-cloud-professional-cscp-stackable-certification.png"
+              alt="cscp"
+              class="cert-img" />
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-secure-infrastructure-specialist-csis-stackable-certification.png"
+              alt="csic"
+              class="cert-img" />
+          </div>
+          <div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <img
+              src="./images/badges/comptia-security-ce-certification.png"
+              alt="security+"
+              class="cert-img" />
+          </div>
+        </div>
+      </section>
+    </main>
 
     <!-- BOOTSTRAP FUNCTIONALITY -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      integrity="sha384-q8i/X+945DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi4jizo"
       crossorigin="anonymous"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
