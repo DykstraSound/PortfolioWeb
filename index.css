@@ -1,3 +1,20 @@
+.custom-nav {
+  background-color: #fff;
+  border-bottom: 1px solid #000;
+}
+
+.nav-item {
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+}
+
 .primary {
   min-height: 500px;
+}
+
+.cert-img {
+  width: 50%;
 }
