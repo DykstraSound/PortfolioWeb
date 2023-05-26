@@ -23,8 +23,26 @@
   width: 100%;
 }
 
+.cert-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pg-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
 .cert-img {
   width: 50%;
+}
+
+.page-img {
+  width: 100%;
 }
 
 .w-100 {
@@ -66,4 +84,14 @@
 .social-icon {
   width: 20%;
   cursor: pointer;
+}
+
+.stnd-h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.stnd-h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
